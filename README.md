@@ -117,15 +117,14 @@ Job name: `etl-cep-job-ashish` — executed successfully; final result verified 
 ```
 
 aws-glue-retail-data-management/
-├── README.md                    ← will paste this on GitHub
-├── .gitignore                   ← optional
-├── LICENSE                      ← optional (MIT suggested)
+├── README.md                  
+├── LICENSE         
 ├── data/
 │   ├── raw/
-│   │   ├── products_raw.csv         (rename from product details.csv)
-│   │   └── transactions_raw.csv     (rename from transactions.csv)
+│   │   ├── products_raw.csv     
+│   │   └── transactions_raw.csv 
 │   └── processed/
-│       ├── etl_output_sample.csv    (create placeholder or sample)
+│       ├── etl_output_sample.csv   
 │       └── README_placeholder.txt
 ├── docs/
 │   ├── images/
@@ -143,7 +142,7 @@ aws-glue-retail-data-management/
 │   │   ├── s3-output-bucket.png
 │   │   └── sql-query-result.png
 │   └── report/
-│       ├── ETL_Project1_Report.pdf   (keep ONLY pdf)
+│       ├── ETL_Project1_Report.pdf 
 │       └── Simplilearn_Project_Guidelines.pdf
 └── src/
     └── README_placeholder.txt
